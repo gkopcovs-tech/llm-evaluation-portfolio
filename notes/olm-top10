@@ -1,1 +1,19 @@
+Prompt Injection - is the #1 risk in the OWASP Top 10 for LLM Applications. It occurs when an attacker crafts malicious instructions that manipulate an AI model into ignoring its intended behavior and following the attacker's commands instead.
 
+LLM02: Sensitive Information Disclosure is the second risk in the OWASP Top 10 for LLM Applications. It refers to situations where an AI system exposes confidential, personal, or proprietary information that users should not be able to access.
+
+Supply Chain risk means that your AI system becomes vulnerable because you trust external components that were compromised, malicious, or poorly secured. Instead of attacking your application directly, attackers target something you depend on.
+
+Data and Model Poisoning is about corrupting the AI's knowledge or behavior before users even interact with it. While LLM01 (Prompt Injection) attacks the AI during a conversation, LLM04 (Data & Model Poisoning) attacks the data, model, or knowledge sources that the AI learns from.
+
+Improper Output Handling (LLM05) occurs when an application takes AI-generated output and directly passes it to another system without validation, sanitization, or safety checks.
+
+Excessive Agency occurs when the AI is given too much power, too many permissions, or too much autonomy
+
+System Prompt Leakage happens when an attacker manages to reveal or infer  hidden instructions.
+
+LLM08 Vector and Embedding Weaknesses is the risk that attackers exploit the embedding, vector database, or retrieval layer of a RAG system to leak data, poison context, manipulate answers, or bypass security controls without directly attacking the LLM itself.
+
+LLM09: Misinformation is about an AI system generating false, misleading, fabricated, or harmful information that appears credible.
+
+LLM10 Unbounded Consumption is the risk that attackers or users can trigger excessive AI inference, token usage, tool execution, API calls, or computational workloads, causing denial of service, financial losses ("Denial of Wallet"), service degradation, or model theft.
